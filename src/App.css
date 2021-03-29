@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.container {
+  margin-left: 25%;
+  width: 50%;
+  background-color: #61dafb;
+  text-align: center;
+  font-family: "Papyrus";
+  border-radius: 10px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.row {
+  font-size: large;
+  width: 30%;
+  margin-left: 23%;
+}
+
+.list-data {
+  font-family: "Papyrus";
+}
+
+.btn-danger {
+  background-color: rgb(192, 37, 37);
+  color: white;
+  font-size: 15px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.list-group {
+  width: 100%;
+}
+
+.form-control {
+  height: 40px;
+  width: 50%;
+  border-radius: 5px;
+}
